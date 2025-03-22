@@ -8,12 +8,14 @@ document.addEventListener('DOMContentLoaded', function(){
 
     });
 });
-
-diminuiFonteBotao.addEventListener('click', function(){
+   
+   let tamanhoAtualFonte = - 0.1
+   diminuiFonteBotao.addEventListener('click', function(){
     tamanhoAtualFonte -= 0.1;
     document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
-
-});
+ }
+   
+);
 
 const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
 const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
