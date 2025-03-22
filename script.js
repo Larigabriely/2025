@@ -15,4 +15,3 @@ diminuiFonteBotao.addEventListener('click', function(){
 
 });
 
-});
